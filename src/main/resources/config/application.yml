@@ -1,0 +1,13 @@
+spring:
+    application:
+        name: ins-download
+server:
+    port: 10000
+debug: true
+
+management:
+  context-path: /management
+  security:
+    enabled: false
+endpoints:
+  sensitive: false
